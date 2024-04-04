@@ -6,7 +6,7 @@ var logger = require('morgan');
 
 var indexRouter = require('./routes/index');
 // var usersRouter = require('./routes/users');
-var secret = 'Ch@ngeM3';
+var twilio_access_token = 'Ch@ngeM3Asdgnhffnfhnhgmhgd';
 var user = 'test@email.com';
 var pass = 'Ch@ngeM3';
 var app = express();
