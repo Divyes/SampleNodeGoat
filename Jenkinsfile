@@ -10,8 +10,8 @@ pipeline {
 
     stage('Test') {
       steps {
-        sh 'docker pull ranjitsinghneo/dependency-checker:latest'
-        sh 'docker run -it --rm --name dependency-checker --volume `pwd`:/app/files dependency-checker:latest'
+        sh 'pwd'
+        sh 'ls -al'
       }
     }
 
